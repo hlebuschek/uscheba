@@ -10,7 +10,7 @@ class PrimKruskal
         List<(int, int, int)> mstEdges = new List<(int, int, int)>();
         PriorityQueue<(int weight, int u, int v), int> edgeHeap = new PriorityQueue<(int weight, int u, int v), int>();
 
-        // Начинаем с первой вершины.
+        // Начинаем с первой вершины
         selected[0] = true;
         for (int j = 1; j < n; j++)
         {
